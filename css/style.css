@@ -3,9 +3,12 @@
     margin: 0;
     box-sizing: 0;
 }
+body{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
-
-body{background-color: brown;
 }
 header{
     background-color:black;
@@ -39,6 +42,51 @@ header nav ul li a:hover{
 .sale{
     color: orange;
 }
+main{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.card{
+
+    background-color:rgb(231, 154, 10);
+    opacity:95.5%;
+    margin:0.5rem;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    opacity:100%  ;
+
+}
+.card-img-topviolet{
+      margin-bottom:7.5rem;
+}
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-top: 0.1rem solid whitesmoke;
+    margin-top: auto;
+}
+footer h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem;
+    color: brown;
+}
+footer ul{
+    font-size: 1rem;
+    margin: 0.1rem;
+    display: flex;
+    list-style: none;
+}
+footer ul li a{
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
 
 
 
